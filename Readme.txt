@@ -6,7 +6,7 @@ Bascially we cannot query the flow object in apex directly, instead we need to m
 I will be working on deletion of the flow when the owner replies the number of flow versions to be deleted to the same mail which he receives.
 
 
-Note: Run the following code snippet for scheduling the class.
+Note: Run the following code snippet in anonymous window for scheduling the class
 
 public static string cronexp = '0 0 8 1/1 * ? *';
 SchdulerForNotifyFlowVersions s = new SchdulerForNotifyFlowVersions();
